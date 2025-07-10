@@ -69,7 +69,6 @@ nav{
         background-color: F5F8FF;
         align-items: center;
         margin: 0 auto;
-        
     }
     .action-title{
         font-family: "Raleway", sans-serif;
@@ -94,6 +93,36 @@ nav{
         padding: 12px 36px;
     }
     .action-img{
-        border-radius: 40px;
+        border-radius: 48px;
         padding: 0 17px;
+    }
+    .third-bg{
+        background-color: #E4E6FF;
+        width: 1140px;
+        height: 306px;
+        border-radius: 20px;
+        margin: 0 auto;
+        /* padding: 50px 80px; */
+    }
+    .section-title{
+        font-size: 38px;
+        font-weight: Bold;
+        color: black;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+        padding: 50px 80px;
+    }
+    .productive-title{
+        font-size: 5em;
+        font-family: "Inter";
+        color: #4E47FF;
+        padding: auto;
+        font-weight: bold;
+    }
+    .productive-description{
+        font-weight: 600;
+        text-align: center;
+    }
+    .productive-user{
+        display: flex;
     }
