@@ -1,0 +1,99 @@
+/* Header Section */
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.bg-img{
+    background-image: url(../Assets/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+    gap: 158px;
+    padding: 0 ;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    color: #4E47FF;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Raleway Font */
+/* .raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; */
+}    
+#text-primary{
+    color: white;
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 30px auto;
+    padding: 12px 36px;  
+}
+/* Banner Section */
+.banner-content{
+    font-family: "Raleway", sans-serif;
+    color: black;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    gap: 158px;
+    padding: 0 200px;
+}
+.btn-secondary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    margin: 30px auto;
+    padding: 12px 36px;}
+
+    /* Main Section */
+    .action-section{
+        display: flex;
+        width: 1140px;
+        height: 328px;
+        margin: 116px 82px 141px 159px;
+        background-color: F5F8FF;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .action-title{
+        font-family: "Raleway", sans-serif;
+        color: black;
+        margin: 30px auto;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .action-p{
+        font-family: "Raleway", sans-serif;
+        color: black;
+        margin: 10px 10px;
+        font-size: medium;
+       }
+    .btn-Third{
+       background-color: #4E47FF;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 10px;
+        color: white;
+        margin: 30px auto;
+        padding: 12px 36px;
+    }
+    .action-img{
+        border-radius: 40px;
+        padding: 0 17px;
+    }
