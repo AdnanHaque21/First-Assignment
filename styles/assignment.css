@@ -186,3 +186,32 @@ nav{
     font-size: 18px;
     font-family: Inter;
 }
+/* Footer Section */
+    main{
+    width: 1440px;
+    height: 428px;
+    background-color: white;
+    }
+.footer-title{
+    text-align: center;
+    /* justify-content: center; */
+    font-family: "Raleway", sans-serif;
+    color: #4E47FF;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-description{
+    font-weight: 600;
+    text-align: center;
+}
+.footer-link{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.btn-primary .btn-secondary .btn-Third:hover{
+    background-color: yellow;
+    cursor: pointer;
+    /* animation: reverse; */
+}
