@@ -160,13 +160,14 @@ nav{
 }
 .reviewer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-right: 5px;
 }
 .img-title, .img-date{
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .reviewer-img{
     width: 40px;
@@ -201,7 +202,7 @@ main{
         font-size: 20px;
         border-radius: 10px;
         color: white;
-        margin: 0px 0px;
+        margin: 20px 20px;
         padding: 12px 36px;
         display: flex;
     }
@@ -267,7 +268,7 @@ form input[type="text"], form input[type="email"], form textarea{
     background-color: white;
     margin: 50px;
     }
-.form-title{
+.footer-title{
     text-align: center;
     font-family: "Raleway", sans-serif;
     color: #4E47FF;
