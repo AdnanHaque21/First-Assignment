@@ -160,6 +160,9 @@ nav{
     border-radius: 10px;
     padding: 10px;
 }
+.client{
+    display: flex;
+}
 .reviewer{
     display: flex;
     justify-content: center;
@@ -237,12 +240,17 @@ main{
     font-size: 70px;
     font-family: "Raleway", sans-serif; 
 }
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .get-touch{
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-form input[type="text"], form input[type="email"], form textarea{
+form input[type="text"], form input[type="email"]{
     font-size: 18px;
     font-family: Inter;
     height: 70px;
@@ -250,6 +258,18 @@ form input[type="text"], form input[type="email"], form textarea{
     border-radius: 10px;
     display: block;
     padding: 10px 10px;
+    margin: 20px 0;
+}
+.form-input textarea{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    margin: 20px 0;
+    padding: 10px;
+}
+.focus-better{
+    text-align: center;
 }
     .focus-btn{
         background-color: #4E47FF;
@@ -259,7 +279,8 @@ form input[type="text"], form input[type="email"], form textarea{
         border-radius: 10px;
         color: white;
         margin: 0px auto;
-        padding: 10px 36px; 
+        padding: 10px 36px;
+        text-align: center; 
     }
     .footer-column{
         font-family: "Raleway", sans-serif;
@@ -275,11 +296,11 @@ form input[type="text"], form input[type="email"], form textarea{
     }
 .footer-title{
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #4E47FF;
-    margin: 20px auto;
+    margin: 60px auto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 100px;
 }
 .footer-description{
     font-weight: 600;
