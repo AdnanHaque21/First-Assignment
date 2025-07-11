@@ -9,6 +9,7 @@
     /* height: 698px; */
     gap: 158px;
     padding: 0 ;
+    /* margin: 130px; */
 }
 h3{
     font-family: "Raleway", sans-serif;
@@ -64,8 +65,8 @@ nav{
     .action-section{
         display: flex;
         width: 1140px;
-        height: 328px;
-        margin: 116px 82px 141px 159px;
+        /* height: 328px; */
+        /* margin: 130px; */
         background-color: F5F8FF;
         align-items: center;
         margin: 0 auto;
@@ -132,8 +133,9 @@ nav{
     /* Challenges */
     main{
         max-width: 1140px;
-        max-height: 331px;
+        /* max-height: 331px; */
         background-color: #F5F8FF;
+        /* margin: 130px; */
     }
     .card-container{
         display: flex;
@@ -168,6 +170,7 @@ nav{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .reviewer-img{
     width: 40px;
@@ -182,6 +185,7 @@ main{
     /* height: 697px; */
     background-color: #F5F8FF;
     padding: 0 71px;
+    /* margin: 130px; */
 }
     .focus-title{
         text-align: center;
@@ -218,6 +222,7 @@ main{
         height: 632px;
         background-color: #F5F8FF;
         padding: 0 71px;
+        /* margin: 130px; */
     }
     .footer-column{
         display: inline-block;
@@ -266,7 +271,7 @@ form input[type="text"], form input[type="email"], form textarea{
     width: 1440px;
     /* height: 428px; */
     background-color: white;
-    margin: 50px;
+    /* margin: 130px; */
     }
 .footer-title{
     text-align: center;
