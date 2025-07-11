@@ -317,3 +317,6 @@ form input[type="text"], form input[type="email"]{
     text-align: center;
     font-family: "Raleway", sans-serif;;
 }
+.footer-section{
+    padding: 60px 0;
+}
