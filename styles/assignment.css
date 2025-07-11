@@ -6,7 +6,7 @@
 .bg-img{
     background-image: url(../Assets/Hero-bg.png);
     width: 1440px;
-    height: 698px;
+    /* height: 698px; */
     gap: 158px;
     padding: 0 ;
 }
@@ -15,7 +15,7 @@ h3{
     color: #4E47FF;
     margin: 30px auto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
 }
 /* Raleway Font */
 /* .raleway-normal{
@@ -29,6 +29,7 @@ h3{
 nav{
     display: flex;
     align-items: center;
+    margin: 20px 20px;
 }
 .btn-primary{
     background-color: #4E47FF;
@@ -37,7 +38,7 @@ nav{
     border-radius: 10px;
     color: white;
     margin: 30px auto;
-    padding: 12px 36px;  
+    padding: 12px 36px; 
 }
 /* Banner Section */
 .banner-content{
@@ -57,8 +58,8 @@ nav{
     border-radius: 10px;
     color: white;
     margin: 30px auto;
-    padding: 12px 36px;}
-
+    padding: 12px 36px;
+}
     /* Main Section */
     .action-section{
         display: flex;
@@ -74,7 +75,7 @@ nav{
         color: black;
         margin: 30px auto;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 40px;
     }
     .action-p{
         font-family: "Raleway", sans-serif;
@@ -98,11 +99,12 @@ nav{
     .third-bg{
         background-color: #E4E6FF;
         width: 1140px;
-        height: 306px;
+        /* height: 306px; */
         border-radius: 20px;
-        margin: 0 auto;
-        /* padding: 50px 80px; */
+        margin-top: 40px;
+        padding: 20px 40px;
     }
+    /* Productive Section */
     .section-title{
         font-size: 38px;
         font-weight: Bold;
@@ -112,15 +114,17 @@ nav{
         padding: 50px 80px;
     }
     .productive-title{
-        font-size: 5em;
+        font-size: 4em;
         font-family: "Inter";
         color: #4E47FF;
-        padding: auto;
+        padding: 10px;
         font-weight: bold;
     }
     .productive-description{
         font-weight: 600;
         text-align: center;
+        gap: 50px;
+        padding: 5px;
     }
     .productive-user{
         display: flex;
@@ -132,17 +136,21 @@ nav{
         background-color: #F5F8FF;
     }
     .card-container{
-    display: flex;
-    padding: 20px;
-    gap: 30px;
-    flex-wrap: wrap;
+        display: flex;
+        padding: 20px;
+        gap: 30px;
+    /* flex-wrap: wrap; */
 }
-.user{
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    font-size: 42px;
-    font-family: "Raleway", sans-serif;
+    .user{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 42px;
+        font-family: "Raleway", sans-serif;
+}
+    .card-title{
+        color: black;
+        font-size: 30px;
 }
 .card{
     width: 300px;
@@ -152,49 +160,104 @@ nav{
 }
 .reviewer{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5px;
 }
 .img-title, .img-date{
     display: flex;
     margin: 0 auto;
-    align-items: center;
+    justify-content: space-between;
 }
 .reviewer-img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    padding: 10px auto;
+    padding: 0px auto;
+    margin-top: 10px;
 }
+/* Focus better */
+main{
+    width: 1140px;
+    /* height: 697px; */
+    background-color: #F5F8FF;
+    padding: 0 71px;
+}
+    .focus-title{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 70px;
+        font-family: "Raleway", sans-serif; 
+}
+    .focus-description{
+        font-weight: 600;
+        text-align: center;
+        margin: 20px auto;
+        font-family: "Raleway", sans-serif; 
+    }
+    .focus-btn{
+        background-color: #4E47FF;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 10px;
+        color: white;
+        margin: 30px auto;
+        padding: 12px 36px;
+        display: flex;
+    }
+    .focus-img{
+        display: inline-block;
+        border-radius: 48px;
+        overflow: hidden;
+        margin: 50px;
+    }
   /* Get in Touch */
   main{
         width: 1140px;
-        height: 632px;
+        /* height: 632px; */
         background-color: #F5F8FF;
         padding: 0 71px;
     }
   .form-title{
-    text-align: center;
+    text-align: left;
     color: black;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 70px;
     font-family: "Raleway", sans-serif; 
 }
 .get-touch{
     display: flex;
 }
-.form-label{
+form input[type="text"], form input[type="email"], form textarea{
     font-size: 18px;
     font-family: Inter;
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+    display: block;
+    padding: 10px 10px;
 }
+    .focus-btn{
+        background-color: #4E47FF;
+        font-weight: bold;
+        width: 497px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: white;
+        margin: 0px auto;
+        padding: 12px 36px; 
+    }
+    .form label{
+        font-family: "Raleway", sans-serif; 
+    }
 /* Footer Section */
     main{
     width: 1440px;
-    height: 428px;
+    /* height: 428px; */
     background-color: white;
     }
 .footer-title{
     text-align: center;
-    /* justify-content: center; */
     font-family: "Raleway", sans-serif;
     color: #4E47FF;
     margin: 20px auto;
@@ -204,14 +267,15 @@ nav{
 .footer-description{
     font-weight: 600;
     text-align: center;
+    font-family: "Raleway", sans-serif;
 }
 .footer-link{
-    align-items: center;
     text-decoration: none;
     color: black;
+    margin: 10px 20px;
+    display: inline-block;
 }
-.btn-primary .btn-secondary .btn-Third:hover{
-    background-color: yellow;
-    cursor: pointer;
-    /* animation: reverse; */
+.footer-container{
+    text-align: center;
+    font-family: "Raleway", sans-serif;;
 }
